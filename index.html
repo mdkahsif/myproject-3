@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .section-1
+        {
+            background: linear-gradient(rgba(121, 119, 119, 0.397),rgba(122, 121, 121, 0.397)), url(https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/1.jpg );
+            width: 100%;
+            height: 90vh;
+            background-size: 100% 100%;
+        }
+        .section-1 button{
+            background-color: rgb(255, 0, 149);
+        }
+        .section-1 button:hover{
+            background: rgba(9, 221, 228, 0.959);
+            transition: 2s;
+        }
+        .button{
+            background-color: rgb(255, 0, 149);
+            border-radius: 5px;
+        }
+        .button:hover{
+            background: rgba(9, 221, 228, 0.959);
+            transition: 2s;
+        }
+        .section-2 h1:hover{
+            color: rgb(9, 221, 228, 0.959);
+            transition: 1s;
+        }
+
+        .section-2 span{
+            color: rgb(255, 0, 149);
+        }
+        .section-2 span:hover{
+            color: rgb(9, 221, 228, 0.959);
+            transition: 1s;
+        }
+        .section-4 h1:hover{
+            color: rgba(9, 221, 228, 0.959) ;
+            transition: 2s;
+        }
+        .section-5 button{
+            background-color: rgb(255, 0, 149);
+        }
+        .section-5 button:hover{
+            background: rgba(9, 221, 228, 0.959);
+            transition: 2s;
+        }
+        .section-6 i{
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+         
+    </style>
+</head>
+<body> 
+
+    <!-- Navbar start from here -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#" style=" font-size: 30px; font-weight: 400;"><span class="fa fa-book fs-2 py-3 pe-3 "></span>Tutee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style=" font-size: 20px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+              <li><a class="dropdown-item" href="#">Blog Single</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Landing Page</a></li>
+            </ul>
+          </li>
+          <div class="button ">
+          <li class="nav-item">
+            <a class="nav-link btn py-2 px-4 text-light fs-5 fw-bold" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+          </div>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+   <!-- Navbar end from here -->
+  
+   <!-- Section-1 start from here -->
+  <section class="section-1">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 d-flex align-items-center" style="height: 90vh;">
+            <div class="">
+            <h1 class="display-4 fw-bold text-light">Present Education <br> In Beautiful Way!</h1>
+            <p class="text-light py-3 fw-bold">Adipi sicing elit. Quia, aliquid voluptatum corporis Dicta. Deleniti possimus culpa nemo asperiores aperiam mollitia, maiores Lorem ipsum dolor.</p>
+            <form action="">
+            <div class="row">
+                <div class="col-sm-8 mb-4 ">
+                <input type="email" placeholder="Email" class="form-control py-3 " style="border-radius: 5px;" required>
+                </div>
+                <div class="col-lg-4">
+             <button class="btn text-light py-3 px-5 fw-bold" style="border-radius: 5px;" >Subscribe</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+</div>
+  </section>
+  <!-- Section-1 end from here -->
+  
+  <!-- Section-2 start from here -->
+  <section class="section-2 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>You Can Learn Anything</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic fuga sit illo modi <br> aut aspernatur tempore laboriosam saepe dolores eveniet.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="card py-3" style="border-radius: 50px;">
+                    <span class="fa fa-thumbs-up text-center py-3 fs-4"></span>
+                    <h1 class="fs-4 text-center">Unlimited Access</h1>
+                    <p class="py-3 px-2 text-center">Sit amet consect etur adipi sicing elit. <br> Rem quib usdam corporis, dolores quos,<br> nobis culpa est </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  mt-5">
+                <div class="card py-3" style="border-radius: 50px;">
+                    <span class="fa fa-users text-center py-3 fs-4"></span>
+                    <h1 class="fs-4 text-center">Expert Teachers</h1>
+                    <p class="py-3 px-2 text-center">Sit amet consect etur adipi sicing elit. <br> Rem quib usdam corporis, dolores quos,<br> nobis culpa est </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  mt-5">
+                <div class="card py-3" style="border-radius: 50px;">
+                    <span class="fa fa-pencil text-center py-3 fs-4"></span>
+                    <h1 class="fs-4 text-center">Learn Anything</h1>
+                    <p class="py-3 px-2 text-center">Sit amet consect etur adipi sicing elit. <br> Rem quib usdam corporis, dolores quos,<br> nobis culpa est </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6  mt-5">
+                <div class="card py-3" style="border-radius: 50px;">
+                    <span class="fa fa-book text-center py-3 fs-4"></span>
+                    <h1 class="fs-4 text-center">Many Courses</h1>
+                    <p class="py-3 px-2 text-center">Sit amet consect etur adipi sicing elit. <br> Rem quib usdam corporis, dolores quos,<br> nobis culpa est </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  mt-5">
+                <div class="card py-3" style="border-radius: 50px;">
+                    <span class="fa fa-star text-center py-3 fs-4"></span>
+                    <h1 class="fs-4 text-center">Bright Future</h1>
+                    <p class="py-3 px-2 text-center">Sit amet consect etur adipi sicing elit. <br> Rem quib usdam corporis, dolores quos,<br> nobis culpa est </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="card py-3" style="border-radius: 50px;">
+                    <span class="fa fa-check text-center py-3 fs-4 fw-bold"></span>
+                    <h1 class="fs-4 text-center">Verified Course</h1>
+                    <p class="py-3 px-2 text-center">Sit amet consect etur adipi sicing elit. <br> Rem quib usdam corporis, dolores quos,<br> nobis culpa est </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+  </section>
+<!-- Section-2 end from here -->
+  
+<!-- Section-3 start from here -->
+  <section class="sectin-3 " style="background-color: rgba(155, 152, 145, 0.123);">
+   <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card mt-5">
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b8.jpg" alt="">
+                <div class="card-img-overlay " style="background: rgba(0,0,0,0.5);">
+                    <h1 class="text-light fs-3 fw-bold py-3">Successfully Trained</h1>
+                    <div class="d-flex justify-content-end align-items-end pb-5 pe-5" style="height: 100%;">
+                    <p class="my-5 pe-3 text-light text-end border-end border-light border-3 ">Lorem ipsum dolor sit amet.Sit amet <br>
+                     consect etur adipi sicing elit.</p>
+                     </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 ">
+            <div class="card mt-5">
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b7.jpg" alt="">
+                <div class="card-img-overlay" style="background:  rgba(0,0,0,0.5);">
+                    <h1  class="text-light fs-3 fw-bold py-3">We Proudly Received</h1>
+                    <div class="d-flex justify-content-end align-items-end pb-5 pe-5" style="height: 100%;">
+                    <p class="my-5 pe-3 text-light text-end border-end border-light border-3">Lorem ipsum dolor sit amet.Sit amet <br>
+                        consect etur adipi sicing elit.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 ">
+            <div class="card mt-5 mb-5">
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b6.jpg" alt="">
+                <div class="card-img-overlay" style="background: rgba(0,0,0,0.5);">
+                    <h1  class="text-light fs-3 fw-bold py-3">We Are Getting Featured On</h1>
+                    <div class="d-flex justify-content-end align-items-end pb-5 pe-5" style="height: 100%;">
+                    <p class="my-5 pe-3 text-light text-end border-end border-light border-3">Lorem ipsum dolor sit amet.Sit amet <br>
+                        consect etur adipi sicing elit.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 ">
+            <div class="card mt-5 mb-5">
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b2.jpg" alt="">
+                <div class="card-img-overlay" style="background: rgba(0,0,0,0.5);">
+                    <h1  class="text-light fs-3 fw-bold py-3"> Firmly Established</h1>
+                    <div class="d-flex justify-content-end align-items-end pb-5 pe-5" style="height: 100%;">
+                    <p class="my-5 pe-3 text-light text-end border-end border-light border-3">Lorem ipsum dolor sit amet.Sit amet <br>  consect etur adipi sicing elit.</p>
+                </div>   
+                </div>
+            </div>
+        </div>
+
+    </div>
+   </div>
+  </section>
+  <!-- Section-3 end from here -->
+
+ <!-- Section-4 start from here -->
+ <section class="section-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <h1 class="text-center fw-bold py-3">Browse Our Top Courses</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic fuga sit illo modi <br> aut aspernatur tempore laboriosam saepe dolores eveniet.</p>
+            </div>
+
+            <div class="col-lg-4 mt-5">
+               <div class="card">
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b2.jpg" alt="">
+                <div class="card-body " style="background: #97979731;">
+                <h1 class="fs-4 mt-3">Branding Design</h1>
+             
+                <i class=" fa-regular fa-calendar-days text-muted"></i><span style="font-size: 15px; font-family: sans-serif;"> 7 April</span>  
+
+                <i class="fa-regular fa-eye"></i><span style="font-size: 15px; font-family: sans-serif; "> 3286 Views</span> 
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque labor.</p> 
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 mt-5">
+                <div class="card">
+                    <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b1.jpg" alt="">
+                 <div class="card-body " style="background: #97979731;">
+                 <h1 class="fs-4 mt-3">Art Design</h1>
+                 <i class=" fa-regular fa-calendar-days text-muted" > 
+                    
+                 </i> <span style="font-size: 15px; font-family: sans-serif; "> 7 April</span>  
+                 <i class="fa-regular fa-eye"> <span style="font-size: 15px; font-family: sans-serif; "> 3286 Views</span></i> 
+            
+                 <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque labor.</p> 
+                </div>
+                </div>
+             </div>
+
+             <div class="col-lg-4 mt-5">
+                <div class="card">
+                    <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b3.jpg" alt="">
+                 <div class="card-body " style="background: #97979731;">
+                 <h1 class="fs-4 mt-3">Programming</h1>
+                <i class=" fa-regular fa-calendar-days text-muted" > 
+                    
+                </i> <span style="font-size: 15px; font-family: sans-serif; "> 7 April</span>  
+                <i class="fa-regular fa-eye"> <span style="font-size: 15px; font-family: sans-serif; "> 3286 Views</span></i> 
+                 <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque labor.</p> 
+                </div>
+                </div>
+             </div>
+  
+
+        </div>
+    </div>
+
+ </section>
+ <!-- Section-4 end from here -->
+
+ <!-- Section-5 start from here -->
+ <section class="section-5"  style="background-color: rgba(155, 152, 145, 0.123); ">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mt-5 mb-5" style="border-radius: 10px;">
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/b6.jpg" style="border-radius: 10px;">
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-5">
+                 <span class="text-muted fw-bold">HOW WE WORK </span>
+                 <h1 class="py-2 fw-bold ">Your Bright Future Is Our Mission!.</h1>
+                 <p class="py-2">Moll itia placeat modi expl icabo volup tatum corporis unde Dicta, provident Rem adipisci Moll itia placeat modi volup tatem tenetur conse quatur.Conseq tenetur conse quatur adipi sicing elit.  </p>
+                 <button class=" text-light btn btn-lg px-4 py-2 mt-5 "  style=" border-radius: 5px; margin-bottom: 40px;">Read more </button>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+ <!-- Section-5 end from here -->
+
+ <!-- Section-6 start from here -->
+ <section class="section-6">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12  text-center" >
+                <img src="https://p.w3layouts.com/demos_new/template_demo/06-09-2020/tutee-liberty-demo_Free/448738053/web/assets/images/c3.jpg " style="border-radius: 50%; width: 12%;" >
+                <h1 class="mt-3 fs-5 fw-bold">Limitless learning</h1>
+                <p class="mt-3">Consectetur adipisicing Lorem ipsum dolor sit amet,elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimincididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                <h6 class="fw-bold">Jack Willson</h6>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <section class="section-6" style="background-color: black;">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <h1 class="text-light mt-5 fs-5 fw-bold">About Us</h1>
+                <p class="text-muted mt-4">Ipsum dolor sit amet, consectetur  adipisicing elit.Itaque quis repellendus nesciunt quam cupiditate explicabo modi  non error consequatur sunt molestiae laboriosam adipisci voluptatem possimus</p>
+                <div class="d-flex">
+                <i class="fa-brands fa-facebook-f text-light me-3" style="background-color: rgb(0, 4, 255); "></i>
+                <i class="fa-brands fa-twitter text-light me-3  "  style="background-color: rgb(29,161,242);"></i>
+                <i class="fa-brands fa-instagram text-light me-3"  style="background-color: rgb(193,53,132);"></i>
+                <i class="fa-brands fa-google-plus-g text-light me-3 "  style="background-color: rgb(255, 81, 0);"></i>
+                <i class="fa-brands fa-linkedin text-light  me-3"  style="background-color: rgb(0, 140, 255);"></i>
+            </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+                <h1 class="fs-5 mt-5 text-light px-4 fw-bold">Latest News</h1>
+                <h5 class=" text-muted mt-4 px-4" style="font-size: 17px;">Programming language </h5>
+                <h6 class=" text-muted px-4" style="font-size: 14px;">by Admin</h6>
+
+                <h5 class=" text-muted mt-4 px-4" style="font-size: 17px;">Graduate Admissions </h5>
+                <h6 class=" text-muted px-4" style="font-size: 14px;">by Admin</h6>
+
+                <h5 class=" text-muted mt-4 px-4" style="font-size: 17px;">Committed to educating </h5>
+                <h6 class=" text-muted px-4" style="font-size: 14px;">by Admin</h6>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                 <h1 class="fs-5 mt-5 text-light px-3 fw-bold">Contact Us </h1>
+                 
+                 <div class="d-flex text-muted py-3 ">  
+                     <i class="fa-solid fa-location-dot text-muted"></i>
+                     California, #32841 block, #221DRS 75 West Rock, Maple Building, UK. </div>
+                 <span class="d-flex text-muted"><i class="fa-solid fa-phone text-muted "></i> +(21)-255-999-8888 </span>
+             <span class="d-flex text-muted py-3"><i class="fa-regular fa-envelope-open text- "></i> example@mail.com  </span>
+
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <h1 class="fs-5 mt-5 text-light px-3 fw-bold px-4" > Useful Links </h1>
+                <h5 class="text-muted px-4 py-2" style="font-size: 15px;">Forums</h5>
+                <h5 class="text-muted px-4 py-2" style="font-size: 16px;">Our Teachers</h5>
+                <h5 class="text-muted px-4 py-2" style="font-size: 16px;"> Upcoming Events </h5>
+                <h5 class="text-muted px-4 py-2" style="font-size: 16px;">Popular Course </h5>
+                <h5 class="text-muted px-4 py-2" style="font-size: 16px;"s>Verified Course </h5>
+            </div>
+        </div>
+    </div>
+
+ </section>
+ <!-- Section-6 end from here -->
+
+<!-- Section-7 start from here -->
+ <section class="section-7" style="background-color: black;">
+    <div class="container py-5" >
+        <div class="row">
+            <div class="col-lg-8 col-md-6 ">
+                <p class="copy-footer-29 col-lg-8 text-muted d-flex">© 2020 Tutee. All rights reserved | Designed by <a href="#" class="d-flex text-muted"> w3layouts</a></p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 ">
+                <p>
+                    <a href="#" class="text-muted">Privacy Policy</a>
+                    <a href="# " class="text-muted px-5">Terms of service</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+ </section>
+ <!-- Section-7 end from here -->
+    
+</body>
+</html>
